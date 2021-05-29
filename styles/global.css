@@ -1,0 +1,66 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter',  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #fff;
+  color: #111;
+}
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.headline-link {
+  color: #1d1d1f;
+}
+.headline-left {
+  width: 111px;
+  float: left;
+  margin-right: 10px;
+}
+.headline-left-img {
+  width: 111px;
+  height: 62px;
+}
+.headline-right {
+  float: left;
+  width: 62%;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.theme-color {
+  color: #ed700f !important;
+}
+.footer a {
+  color: #fff;
+}
+/* utilites*/
+.orange-theme-btn {
+  background-color: #ed700f !important;
+  border-color: #ed700f !important;
+}
+/* Carousel */
+.carousel-inner,
+.carousel-item {
+  height:350px;
+}
+.carousel-caption {
+  top:30%;
+}
+.card-header {
+  background-color: #ed700f !important;
+  color: #fff;
+}
+/* contact us form */
+.contact-us-form {
+  border: 1px solid #ed700f;
+  border-radius: 4px;
+  padding: 20px;
+}
