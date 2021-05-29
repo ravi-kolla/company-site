@@ -8,7 +8,7 @@ import FeaturedOffer from '../components/featuredOffer'
 import FeaturedList from '../components/featuredList'
 
 function Homepage(props) {
-  console.log(props.servicesList);
+
   return(
     <>
       <Layout>
@@ -16,7 +16,7 @@ function Homepage(props) {
           <CarouselComponent content={props.homeCarousel}/>
           <Row className="mt-4">
             <Col>
-              <FeaturedList content={props.servicesList} />
+              <FeaturedList services={props.servicesList[0]} />
             </Col>
             <Col>
               <FeaturedOffer content={props.featuredOffer[0]}/>
