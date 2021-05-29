@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import CarouselComponent from '../components/carousel'
