@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "contentful": "^8.3.7",
+    "markdown-react-js": "^1.0.2",
     "next": "10.2.3",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.0",

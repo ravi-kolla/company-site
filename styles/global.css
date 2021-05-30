@@ -42,14 +42,36 @@ a:hover {
   color: #fff;
 }
 /* utilites*/
+.h5 {
+  font-size: 16px;
+}
 .orange-theme-btn {
   background-color: #ed700f !important;
   border-color: #ed700f !important;
 }
+.orange-text {
+  color: #ed700f !important;
+}
+.orange-shadow {
+  box-shadow: 0 5px 10px #ed700f, 0 15px 40px rgb(166 173 201 / 20%);
+}
+/* Header */
+.header .container {
+  height:60px;
+}
+.header .container .navbar-brand {
+  height: inherit;
+  padding: 0px;
+}
+.header .container .navbar-brand img{
+  height: inherit;
+}
 /* Carousel */
-.carousel-inner,
-.carousel-item {
-  height:350px;
+@media only screen and (min-width: 768px) {
+  .carousel-inner,
+  .carousel-item {
+    height:350px;
+  }
 }
 .carousel-caption {
   top:30%;
@@ -63,4 +85,8 @@ a:hover {
   border: 1px solid #ed700f;
   border-radius: 4px;
   padding: 20px;
+}
+/* basic intro */
+.basic-intro h3{
+  text-align: center;
 }

@@ -11,7 +11,7 @@ const Layout = props => (
         <meta name="author" content="DevClust Technologies" />
         <meta name="description" content="Best IT Services provider" />
         <meta name="keywords" content="DevClust, DevClust Technologies, Web Site developers, IT Services, IT Consulting" />
-        <title>Hindustan Daily, India's No.1 news online</title>
+        <title>DevClust Technologies</title>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
