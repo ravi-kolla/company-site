@@ -66,6 +66,9 @@ a:hover {
 .header .container .navbar-brand img{
   height: inherit;
 }
+.navbar-collapse .show {
+  background-color: #fff;
+}
 /* Carousel */
 @media only screen and (min-width: 768px) {
   .carousel-inner,
@@ -75,6 +78,17 @@ a:hover {
 }
 .carousel-caption {
   top:30%;
+}
+@media only screen and (max-width: 500px) {
+  .carousel-caption {
+    top:auto;
+  }
+}
+.carousel-caption h3 {
+  font-size: 18px;
+}
+.carousel-caption p {
+  font-size: 16px;
 }
 .card-header {
   background-color: #ed700f !important;

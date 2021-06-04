@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Header() {
     const router = useRouter();
     return (
-      <Navbar collapseOnSelect className="bg-white border-bottom header" expand="lg" sticky="top">
+      <Navbar collapseOnSelect className="bg-white border-bottom header" bg="light" expand="lg" sticky="top">
         <Container>
             <Navbar.Brand className="theme-color" href="/">
               <img src="/DevClustLogo.png" alt="DevClust" />

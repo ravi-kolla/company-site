@@ -1,6 +1,5 @@
 import CardTile from './cardTile';
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 
 function OurServices(props) {
@@ -10,12 +9,12 @@ function OurServices(props) {
     <Container>
       <h3 className="text-center orange-text">Our Services</h3>
     </Container>
-    <Row sm={1} md={3}>
+    <Row>
     {props.content.map(item => {
       return (
-        <Col>
+        <div className="col-md-4" key={item.fields.title}>
           <CardTile service={item} />
-        </Col>
+        </div>
       )
     })}
     </Row>
