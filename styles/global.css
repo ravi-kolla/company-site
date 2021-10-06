@@ -36,7 +36,7 @@ a:hover {
   font-weight: bold;
 }
 .theme-color {
-  color: #ed700f !important;
+  color: #13AA52 !important;
 }
 .footer a {
   color: #fff;
@@ -46,14 +46,14 @@ a:hover {
   font-size: 16px;
 }
 .orange-theme-btn {
-  background-color: #ed700f !important;
-  border-color: #ed700f !important;
+  background-color: #13AA52 !important;
+  border-color: #13AA52 !important;
 }
 .orange-text {
-  color: #ed700f !important;
+  color: #13AA52 !important;
 }
 .orange-shadow {
-  box-shadow: 0 5px 10px #ed700f, 0 15px 40px rgb(166 173 201 / 20%);
+  box-shadow: 0 5px 10px #13AA52, 0 15px 40px rgb(166 173 201 / 20%);
 }
 /* Header */
 .header .container {
@@ -91,12 +91,12 @@ a:hover {
   font-size: 16px;
 }
 .card-header {
-  background-color: #ed700f !important;
+  background-color: #13AA52 !important;
   color: #fff;
 }
 /* contact us form */
 .contact-us-form {
-  border: 1px solid #ed700f;
+  border: 1px solid #13AA52;
   border-radius: 4px;
   padding: 20px;
 }
