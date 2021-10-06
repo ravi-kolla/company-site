@@ -8,7 +8,7 @@ function Header() {
       <Navbar collapseOnSelect className="bg-white border-bottom header" bg="light" expand="lg" sticky="top">
         <Container>
             <Navbar.Brand className="theme-color" href="/">
-              <img src="/DevClustLogo.png" alt="DevClust" />
+              <img src="/DevClust.jpg" alt="DevClust" />
             </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
